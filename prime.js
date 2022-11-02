@@ -1,13 +1,13 @@
 function Prime(num) {
-    let count = 0;
+    let factor = 0;
     for (let a=1; a<=num; a++) {
         if(num%a===0) {
-            count++;
+            factor++;
         }
-    } if (count===2) {
-        console.log("Yes");
+    } if (factor===2) {
+        console.log("PRIME");
     } else {
-        console.log("No");
+        console.log("NOT PRIME");
     }
 }
 Prime(17);
